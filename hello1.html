@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        *{
+            max-width: auto;
+            padding: 0px;
+            margin:0px;
+        }
+        option{
+            background-color: blue;
+        }
+        .column{
+            text-align: justify ;
+            font-size: 16pt;
+            column-count: 3;
+            column-gap: 1 em;
+            column-rule: 1px solid rgb(0, 0, 0); 
+        }
+        .div{
+            width: 70%;
+            height: 20%;
+            background-color: blue;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            float: right;
+        }
+        .sidepanel{
+            background-color: rgba(0, 0, 0, 0.651);
+            position: fixed;
+            width: 20%; 
+            height: 100%;
+        }
+        .db{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-family: 'Sofia' , sans-serif;
+            font-size: 25px; 
+        }
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-family: 'Sofia' , sans-serif;
+            font-size: 20px;
+        }
+        a:hover{
+            color: blue;
+        }
+        .second li , .first li{
+            padding-left: 30px;
+            padding-bottom: 10px;
+            list-style-type: none;
+            display: inline; 
+        }
+        .first{
+            padding-top: 30px;
+            padding-bottom: 80px;
+        }
+        .nav{
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.76);
+            width: 80%;
+            float: right;
+            height: 80px;
+            border-bottom: 1px solid white ;
+        }
+        .nav li{
+            padding-top: 10px;
+            padding-left: 30px;
+            padding-bottom: 10px;
+            list-style-type: none;
+            display: inline; 
+        }
+        .nav ul{
+            padding-top: 20px;
+        }
+        .workarea{
+           background-color: rgb(255, 255, 255);
+            /*background-color: blue; */
+            width: 80%;
+            float: right;
+            padding-left: 100px;
+        }
+        h1{
+            font-family: 'Tangerine', serif;
+            font-size: 30px;
+            /* text-shadow: 4px 4px 4px #aaa; */
+            font-weight: lighter;
+        }
+        .workarea li{
+            display: inline;
+        }
+        .info{
+            margin: 10px;
+            margin-left: 100px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.63);
+            float: left;
+            padding:10px;
+        }
+        hr{
+            width:90%;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <p class="column"> 
+            hello world hello word hwllo word hello word
+            hello world hello word hwllo word hello word
+            hello world hello word hwllo word hello word
+            hello world hello word hwllo word hello word
+            hello world hello word hwllo word hello word
+            hello world hello word hwllo word hello word
+            hello world hello word hello word hello word hello word
+            hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello!!!!!!!
+        </p>
+       
+    </div>    -->
+    <div class="sidepanel">
+        <ul>
+            <div class="first">
+                <li><a href="#" class="db">SMSYSTEM</a></li>
+            </div>
+            <div class="second">
+                <li><a href="#">DASHBOARD</a></li><br>
+                <li><a href="#">STUDENTS</a></li><br>
+                <li><a href="#">MARKS</a></li><br>
+                <li><a href="#">LOGOUT</a></li><br>
+                <li><a href="#">DASHBOARD</a></li><br>
+                <li><a href="#">STUDENTS</a></li><br>
+                <li><a href="#">MARKS</a></li><br>
+                <li><a href="#">LOGOUT</a></li><br>
+            </div>
+        </ul>
+    </div>
+    <div class="nav">
+        <div> 
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Photos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="workarea">
+        <div class="info">
+            <h1>My classes</h1>
+            <h1>+3 Clasess</h1>
+        </div>
+        <div class="info">
+            <h1>My Subjects</h1>
+            <h1>+3 Subjects</h1>
+        </div>
+        <div class="info">
+            <h1>My Subjects</h1>
+            <h1>+3 Subjects</h1>
+        </div>
+        <div class="info">
+            <h1>My Subjects</h1>
+            <h1>+3 Subjects</h1>
+        </div>
+        <center><hr></center>
+        <div>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+RewriteEngine on #Turn on the rewritting Engine
+RewriteRule ^home/ ?$ index.php [NC,L]
+RewriteRule ^home/ ?$ localhost/smsystem/dos/new3.php [NC,L]
+RewriteRule ^home/?$ localhost/smsystem/dos/nav.php [NC,L]
+RewriteRule ^home/?$ smsystem/dos/nav.php [NC,L]
+RewriteRule ^home/?$ index.php [NC,L]
